@@ -22,7 +22,7 @@ node index.js bilibili --cookies "b6*********4a581;"
 ```sh
 # 构建
 docker build -t auto-sign-machine:latest  -f docker/Dockerfile .
-# 运行
+# 运行 
 docker run \
   --name auto-sign-machine \
   -d \
